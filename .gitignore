@@ -1,0 +1,77 @@
+# Database credentials and sensitive files
+*.env
+*.config
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.sqlite
+
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# Node modules
+node_modules/
+
+# Local development files
+dump.sql
+backup/
+local_settings.*
+override.sql
+
+# System files
+*.orig
+*~
+
+# Large media files
+product_images/
+*.jpg
+*.png
+*.gif
+*.mp4
+*.mov
+
+# Documentation builds
+docs/_build/
+docs/_site/
+
+# Virtual environments
+venv/
+.env/
+venv*/
+
+# IDE specific folders
+.idea/
+.vs/
+
+# Build artifacts
+/build/
+/dist/
+*.egg-info/
+
+# Test files
+/test/
+/tests/
+*.test
